@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ec2-writer (0.2.0)
+    ec2-writer (0.3.0)
       aws-sdk-ec2
 
 GEM
