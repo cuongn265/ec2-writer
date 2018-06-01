@@ -1,0 +1,33 @@
+PATH
+  remote: .
+  specs:
+    ec2-writer (0.1.0)
+      aws-sdk-ec2
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.0.0)
+    aws-partitions (1.87.0)
+    aws-sdk-core (3.21.2)
+      aws-eventstream (~> 1.0)
+      aws-partitions (~> 1.0)
+      aws-sigv4 (~> 1.0)
+      jmespath (~> 1.0)
+    aws-sdk-ec2 (1.34.0)
+      aws-sdk-core (~> 3)
+      aws-sigv4 (~> 1.0)
+    aws-sigv4 (1.0.2)
+    jmespath (1.4.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  ec2-writer!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.2
